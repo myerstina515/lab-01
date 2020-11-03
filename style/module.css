@@ -39,8 +39,6 @@
     box-sizing: border-box;
     line-height: 125px;
 }
-
-
 @media(min-width: 760px){
     main{
         width: 960px;
