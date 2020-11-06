@@ -1,5 +1,6 @@
-#e, #f, #g, #h{
-    overflow: hidden;
+*{
+    box-sizing: border-box;
+    text-align: center;
 }
 #a{
     background-color: red;
@@ -14,67 +15,79 @@
     background-color: blue;
 }
 #e{
-    float: left;
+    /* float: left; */
     background-color: purple;
 }
 #f{
-    float: left;
+    /* float: left; */
     background-color: pink;
 }
 #g{
-    float: left;
+    /* float: left; */
     background-color: teal;
 }
 #h{
-    float: left;
+    /* float: left; */
     background-color: orange;
 }
 #i{
     background-color: grey;
 }
 #c, #d{
-    width: 480px;
-    height: 125px;
-    float: left;
+    width: 30em;
+    height: 8em;
+    /* float: left; */
     box-sizing: border-box;
-    line-height: 125px;
+    line-height: 8em;
 }
 @media(min-width: 760px){
     main{
         width: 960px;
         height: 768px;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    .b-d{
+        display: flex;
+        flex-wrap: wrap;
     }
     #a{
         width: 960px;
         height: 100px;
-        clear: both;
         line-height: 100px;
     }
     #b{
         width: 200px;
         height: 600px;
-        float: left;
         line-height: 600px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
     }
     #c, #d{
         width: 380px;
         height: 200px;
-        float: right;
         line-height: 200px;
     }
     #e, #f, #g, #h{
         width: 190px;
         height: 250px; 
+        float: right;
     }
     #i{
         width: 760px;
         height: 150px;
-        clear: both;
         line-height: 150px;
+        display: flex;
+        justify-content: right;
     }
-    .e-h{
-        float: right;
+    #c-h{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
     }
+
 }
 
 @media(min-width: 960px){
