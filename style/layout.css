@@ -1,26 +1,24 @@
 header{
-    width: 480px;
-    height: 75px;
-    float: left;
-    box-sizing: border-box;
-    line-height: 75px;
+    width: 30em;
+    height: 5em;
+    line-height: 5em;
 }
 #b{
-    width: 480px;
-    height: 150px;
-    float: left;
-    box-sizing: border-box;
-    line-height: 150px;
+    width: 30em;
+    height: 10em;
+    line-height: 10em;
 }
 #e, #f, #g, #h{
-    width: 240px;
-    height: 250px;
-    box-sizing: border-box;
-    line-height: 250px;
+    width: 15em;
+    height: 17em;
+    line-height: 15em;
 }
-footer{
-    width: 480px;
-    height: 80px;
-    float: left;
-    line-height: 80px;
+#i{
+    width: 30em;
+    height: 6em;
+    line-height: 6em;
+}
+.e-h{
+    display: flex;
+    flex-wrap: wrap;
 }
